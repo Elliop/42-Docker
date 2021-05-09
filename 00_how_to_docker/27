@@ -1,0 +1,3 @@
+#docker service ps engineering-bay
+#docker service logs --follow i43vrvn4tr6b
+docker service logs --follow $(docker service ps -q engineering-bay | head -n1)

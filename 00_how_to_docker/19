@@ -1,0 +1,1 @@
+docker container run -v $(PWD):/root --name Abathur -p 3000:3000 -it python:2-slim /bin/bash -c "pip install -U flask && cd /root && python toto.py"

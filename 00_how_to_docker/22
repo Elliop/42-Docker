@@ -1,0 +1,1 @@
+docker $(docker-machine config Aiur) swarm join --token SWMTKN-1-5unhjhipf4fyma9zazouz70ur9ac63y9v9ymyh8q5ajenk0vz0-at4tkh7t152tjc05jw8djtbhu $(docker-machine ip Char):2377

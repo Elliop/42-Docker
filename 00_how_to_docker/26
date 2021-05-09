@@ -1,0 +1,1 @@
+docker service create -e OC_USERNAME=elliop -e OC_PASSWD=123456 --replicas 2 --name engineering-bay --network overmind 42school/engineering-bay
